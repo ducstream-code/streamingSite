@@ -22,18 +22,13 @@ html, body{
     flex-direction: column;
     place-items: center;
     padding-top: 10px;
-    position: fixed;
 }
 
 .video-controls
 {
     background-color: rgba(34, 39, 47, 0.63);
 }
-.video_title
-{
-    font-size: 1rem !important;
 
-}
 
 .login_buttons
 {

@@ -9,3 +9,17 @@
 <script src="../externals/tailwind.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width-device-width, initial-scale=1">
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    background: '#da373d',
+                }
+                screens: {
+                    '2sm': '1600px',
+                },
+            }
+        }
+    }
+</script>

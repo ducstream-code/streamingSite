@@ -39,22 +39,15 @@
                     <input type="text" id="username" name="username" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "
                            placeholder="Nom d'utilisateur">
                 </div>
-                <div class="flex flex-col mb-4">
-                    <label for="email" class="text-white text-xl mb-2">Email</label>
-                    <input type="email" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 " id="email" name="email" placeholder="Email">
-                </div>
+
                 <div class="flex flex-col mb-4">
                     <label for="password" class="text-white text-xl mb-2">Mot de passe</label>
                     <input type="password" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 " id="password" name="password"
                            placeholder="Mot de passe">
                 </div>
-                <div class="flex flex-col mb-6">
-                    <label for="passwordConfirm" class="text-white text-xl mb-2">Confirmez le mot de passe</label>
-                    <input type="password" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 " id="passwordConfirm"
-                           name="passwordConfirm" placeholder="Confirmer mot de passe">
-                </div>
+
                 <div class="flex flex-col place-items-center w-full">
-                    <input type="submit" class="rounded-xl bg-[#5A657C] p-2 text-white w-2/5 " value="S'inscrire">
+                    <input type="submit" class="rounded-xl bg-[#5A657C] p-2 text-white w-2/5 " value="Se connecter">
                 </div>
             </form>
         </div>

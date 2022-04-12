@@ -37,7 +37,7 @@
         <ion-icon name="chevron-down"></ion-icon>
     </div>
 
-    <img src="../assets/images/placeholder/ad.png" class=" w-3/5 mb-4 ml-10 hidden md:block" alt="">
+    <img src="../assets/images/placeholder/ad.png" class=" mb-4 ml-10 hidden w-0 lg:block lg:w-4/5" alt="advertisement">
 
 
 

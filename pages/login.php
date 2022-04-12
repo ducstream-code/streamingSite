@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="flex flex-col place-items-center w-full">
-                    <input type="submit" class="rounded-xl bg-[#5A657C] p-2 text-white w-2/5 " value="Se connecter">
+                    <input type="submit" class="rounded-xl bg-[#5A657C] p-2 text-white md:w-2/5 " value="Se connecter">
                 </div>
             </form>
         </div>

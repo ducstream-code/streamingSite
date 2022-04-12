@@ -4,7 +4,7 @@
 <html lang="fr" dir="ltr">
 <head>
     <?php include "../includes/head.php"; ?>
-    <title>Catégories</title>
+    <title>Recherche</title>
     <script src="../js/video.js"></script>
 </head>
 

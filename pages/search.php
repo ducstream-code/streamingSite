@@ -33,10 +33,11 @@
         </div>
         <div class="pl-5 pr-5">
             <h1 class="font-semibold text-gray-400 text-xl mb-6">Nom recherche video</h1>
-            <div class="sort_list flex overflow-hidden  mb-6">
-                <button class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Pertinence</button>
-                <button class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Les plus récentes</button>
-                <button class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Les plus Vues</button>
+            <div class="sort_list flex overflow-x-scroll   mb-6">
+                <a href="" class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Pertinence</a>
+                <a href="" class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Les plus récentes</a>
+                <a href="" class="rounded-3xl text-xl text-white pl-4 pr-4 pt-2 pb-2 bg-[#5A657C] ">Les plus Vues</a>
+
             </div>
             <button class="text-center p-2  w-full bg-[#5A657C] text-xl text-white mb-12">Plus de filtres</button>
             <div class="video_list pl-5 pr-5 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4">

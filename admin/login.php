@@ -64,7 +64,7 @@
                                   <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
                                 </div>
                                 <div class="d-grid">
-                                <button type="submit" class="btn btn-info m-b-xs">Connexion</button>
+                                <button type="submit" class="btn btn-info m-b-xs ">Connexion</button>
 
                             </div>
                               </form>

@@ -36,7 +36,7 @@
                     <div class="text-center md:text-left">
                         <h1 class="text-2xl font-semibold text-[#78788B]">Aurelien K</h1>
                         <p class="font-semibold ">Membre</p>
-                        <p class="font-semibold"><span class="text-[#78788B] mr-2">Inscrit:</span>1/1/17</p>
+                        <p class="font-semibold"><span class="text-[#78788B] mr-2 ">Inscrit:</span>1/1/17</p>
                         <p class="font-semibold"><span class="text-[#78788B] mr-2">Dernière vue:</span>il y a 7mins</p>
                     </div>
                 </div>

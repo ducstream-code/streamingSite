@@ -68,10 +68,10 @@
         </div>
             <div class="page-content">
               <div class="page-header">
-                <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between pr-0">
                   <div class="header-title flex-fill">
                     <a href="#" id="sidebar-toggle"><i data-feather="arrow-left"></i></a>
-                    <h5>Blank Page</h5>
+                    <h5>Utilisateurs</h5>
                   </div>
                     <div class="header-search">
                       <form>
@@ -108,7 +108,7 @@
                           </div>
                         </li>
                         <li class="nav-item dropdown">
-                          <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                          <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../assets/images/placeholder/user.jpg" alt=""></a>
                           <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
                             <a class="dropdown-item" href="#"><i data-feather="user"></i>Profile</a>
                             <a class="dropdown-item" href="#"><i data-feather="inbox"></i>Messages</a>
@@ -124,128 +124,79 @@
                   </div>
                 </nav>
             </div>
-                <div class="main-wrapper">
-                    <table id="zero-conf" class="display dataTable" style="width: 100%;" role="grid"
-                           aria-describedby="zero-conf_info">
-                        <thead>
-                        <tr role="row">
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-sort="ascending" aria-label="Name: activate to sort column descending"
-                                style="width: 200px;">Name
-                            </th>
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-label="Position: activate to sort column ascending" style="width: 291px;">Position
-                            </th>
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-label="Office: activate to sort column ascending" style="width: 153px;">Office
-                            </th>
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-label="Age: activate to sort column ascending" style="width: 54px;">Age
-                            </th>
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-label="Start date: activate to sort column ascending" style="width: 121px;">Start
-                                date
-                            </th>
-                            <th  tabindex="0" aria-controls="zero-conf" rowspan="1" colspan="1"
-                                aria-label="Salary: activate to sort column ascending" style="width: 116px;">Salary
-                            </th>
-                        </tr>
+
+                <div class="p-10 w-full">
+                    <table class="w-full">
+                        <thead class="text-center text-2xl ">
+                        <th >ID</th>
+                        <th>Nom d'utilisateur</th>
+                        <th>Email</th>
+                        <th class="hidden sm:block">Date d'inscription</th>
+                        <th class="hidden md:table-cell">Action</th>
+                        <th class="hidden md:table-cell">Action 2</th>
                         </thead>
-                        <tbody>
+                        <tbody class="text-xl">
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
+                            <tr class="text-center border-b-2 border-solid border-[#262635] " >
+                                <td class="p-2 ">1</td>
+                                <td class="p-2">Ducstream</td>
+                                <td class="p-2">ducstream@gmail.com</td>
+                                <td class="p-2 hidden sm:block">13 avr 2022</td>
+                                <td class="p-2 hidden md:table-cell"><button class="p-2 rounded bg-red-400  text-white">Supprimer</button></td>
+                                <td class="p-2  hidden md:table-cell"><button class="p-2 rounded bg-blue-400  text-white">Modifier</button></td>
+                            </tr>
 
-
-                        <tr role="row" class="odd">
-                            <td class="sorting_1">Airi Satou</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>33</td>
-                            <td>2008/11/28</td>
-                            <td>$162,700</td>
-                        </tr>
-                        <tr role="row" class="even">
-                            <td class="sorting_1">Angelica Ramos</td>
-                            <td>Chief Executive Officer (CEO)</td>
-                            <td>London</td>
-                            <td>47</td>
-                            <td>2009/10/09</td>
-                            <td>$1,200,000</td>
-                        </tr>
-                        <tr role="row" class="odd">
-                            <td class="sorting_1">Ashton Cox</td>
-                            <td>Junior Technical Author</td>
-                            <td>San Francisco</td>
-                            <td>66</td>
-                            <td>2009/01/12</td>
-                            <td>$86,000</td>
-                        </tr>
-                        <tr role="row" class="even">
-                            <td class="sorting_1">Bradley Greer</td>
-                            <td>Software Engineer</td>
-                            <td>London</td>
-                            <td>41</td>
-                            <td>2012/10/13</td>
-                            <td>$132,000</td>
-                        </tr>
-                        <tr role="row" class="odd">
-                            <td class="sorting_1">Brenden Wagner</td>
-                            <td>Software Engineer</td>
-                            <td>San Francisco</td>
-                            <td>28</td>
-                            <td>2011/06/07</td>
-                            <td>$206,850</td>
-                        </tr>
-                        <tr role="row" class="even">
-                            <td class="sorting_1">Brielle Williamson</td>
-                            <td>Integration Specialist</td>
-                            <td>New York</td>
-                            <td>61</td>
-                            <td>2012/12/02</td>
-                            <td>$372,000</td>
-                        </tr>
-                        <tr role="row" class="odd">
-                            <td class="sorting_1">Bruno Nash</td>
-                            <td>Software Engineer</td>
-                            <td>London</td>
-                            <td>38</td>
-                            <td>2011/05/03</td>
-                            <td>$163,500</td>
-                        </tr>
-                        <tr role="row" class="even">
-                            <td class="sorting_1">Caesar Vance</td>
-                            <td>Pre-Sales Support</td>
-                            <td>New York</td>
-                            <td>21</td>
-                            <td>2011/12/12</td>
-                            <td>$106,450</td>
-                        </tr>
-                        <tr role="row" class="odd">
-                            <td class="sorting_1">Cara Stevens</td>
-                            <td>Sales Assistant</td>
-                            <td>New York</td>
-                            <td>46</td>
-                            <td>2011/12/06</td>
-                            <td>$145,600</td>
-                        </tr>
-                        <tr role="row" class="even">
-                            <td class="sorting_1">Cedric Kelly</td>
-                            <td>Senior Javascript Developer</td>
-                            <td>Edinburgh</td>
-                            <td>22</td>
-                            <td>2012/03/29</td>
-                            <td>$433,060</td>
-                        </tr>
                         </tbody>
-                        <tfoot>
-                        <tr>
-                            <th rowspan="1" colspan="1">Name</th>
-                            <th rowspan="1" colspan="1">Position</th>
-                            <th rowspan="1" colspan="1">Office</th>
-                            <th rowspan="1" colspan="1">Age</th>
-                            <th rowspan="1" colspan="1">Start date</th>
-                            <th rowspan="1" colspan="1">Salary</th>
-                        </tr>
-                        </tfoot>
+
                     </table>
+
                 </div>
 
 

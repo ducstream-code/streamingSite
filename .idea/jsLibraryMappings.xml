@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{fullcalendar, html5shiv, iconify, ionicons, respond}" />
+    <file url="PROJECT" libraries="{@popperjs, feather-icons, fullcalendar, html5shiv, iconify, ionicons, respond}" />
   </component>
 </project>

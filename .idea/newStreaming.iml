@@ -11,5 +11,6 @@
     <orderEntry type="library" name="html5shiv" level="application" />
     <orderEntry type="library" name="@popperjs" level="application" />
     <orderEntry type="library" name="feather-icons" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>

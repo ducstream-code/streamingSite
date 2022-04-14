@@ -5,7 +5,7 @@
     <h1 class="text-xl font-semibold text-[#70708F]">NomDuSite</h1>
     <div class="flex w-2/12 justify-between">
         <img class="object-contain" src="../assets/images/icons/Search.png" onclick="showSearch()">
-        <img class="object-contain h-8 rounded-3xl" src="../assets/images/placeholder/user.jpg">
+        <a href="/pages/profile.php"> <img class="object-contain h-8 rounded-3xl" src="../assets/images/placeholder/user.jpg"></a>
 
     </div>
 </div>
@@ -13,11 +13,11 @@
 <div class="fixed bg-[#2B2B40]/[.9] top-0 h-full w-full -translate-x-full transition-all md:hidden" id="side_menu">
     <div class="flex justify-end p-8" onclick="closeSideMenu()"><ion-icon class="text-[35px] text-white font-bold" name="close" onclick="hideSearch()"></ion-icon></div>
     <div class="flex flex-col place-items-center justify-between p-24 h-4/5 text-2xl font-semibold text-white">
-        <a href="" class="text-3xl">Nom du site</a>
-        <a href="">Accueil</a>
-        <a href="">Tendances</a>
-        <a href="">Acteurs</a>
-        <a href="">Catégories</a>
+        <a href="/index.php" class="text-3xl">Nom du site</a>
+        <a href="/index.php">Accueil</a>
+        <a href="#">Tendances</a>
+        <a href="/pages/actors.php">Acteurs</a>
+        <a href="/pages/categories.php">Catégories</a>
         <a href="">Mes j'aimes</a>
         <a href="">Historique</a>
     </div>
@@ -30,22 +30,7 @@
     </div>
     <ion-icon class="text-3xl text-white font-bold" name="close" onclick="hideSearch()"></ion-icon>
 </div>
-<script>
-    function openSideMenu() {
-        document.getElementById('side_menu').style.transform = "translateX(0%)"
-    }
+<script src="/js/sideMenu.js">
 
-    function closeSideMenu() {
-        document.getElementById('side_menu').style.transform = "translateX(-100%)"
-    }
-
-    function showSearch(){
-        document.getElementById('responsive_search').style.transform = "translateY(0%)"
-
-    }
-    function hideSearch(){
-        document.getElementById('responsive_search').style.transform = "translateY(-100%)"
-
-    }
 
 </script>

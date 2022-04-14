@@ -12,7 +12,8 @@
 <?php include '../includes/sidebar.php' ?>
 
 <div class="center_div h-full xl:w-[1180px] lg:w-full pt-0 md:pt-5  md:pr-12 md:ml-0 md:ml-[80px] ">
-    <?php include "../includes/mobileHeader.php";?>
+    <?php include "../includes/mobileHeader.php";
+    include '../includes/message.php'?>
     <input type="text" placeholder="Search..."
            class="rounded-3xl pl-6 w-7/12 h-12 bg-[#48485B] mb-8 placeholder-white text-sm hidden md:block ml-8">
 

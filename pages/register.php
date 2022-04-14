@@ -24,7 +24,9 @@
     <?php include '../includes/sidebar.php' ?>
 
     <div class="center_div h-full md:w-full  lg:w-full pt-0 md:pt-5   md:ml-0 md:ml-[80px] ">
-        <?php include "../includes/mobileHeader.php"; ?>
+        <?php include "../includes/mobileHeader.php";
+                include '../includes/message.php'
+        ?>
 
 
         <div class="flex justify-center">
@@ -33,7 +35,7 @@
         </div>
 
         <div class="p-4 flex justify-center ">
-            <form class="p-10 sm:bg-[#48486A] sm:rounded-3xl sm:w-4/5 md:w-3/5 lg:w-2/5 flex-col flex place-items-center  ">
+            <form class="p-10 sm:bg-[#48486A] sm:rounded-3xl sm:w-4/5 md:w-3/5 lg:w-2/5 flex-col flex place-items-center" method="post" action="../php/register.php">
                 <div class="flex flex-col mb-4">
                     <label for="username" class="text-white text-xl mb-2">Nom d'utilisateur</label>
                     <input type="text" id="username" name="username" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "

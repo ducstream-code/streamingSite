@@ -24,7 +24,8 @@
     <?php include '../includes/sidebar.php' ?>
 
     <div class="center_div h-full md:w-full  lg:w-full pt-0 md:pt-5   md:ml-0 md:ml-[80px] ">
-        <?php include "../includes/mobileHeader.php"; ?>
+        <?php include "../includes/mobileHeader.php";
+        include '../includes/message.php'?>
 
 
         <div class="flex justify-center">
@@ -36,7 +37,7 @@
             <form class="p-10 sm:bg-[#48486A] sm:rounded-3xl sm:w-4/5 md:w-3/5 lg:w-2/5 flex-col flex place-items-center  ">
                 <div class="flex flex-col mb-4">
                     <label for="username" class="text-white text-xl mb-2">Nom d'utilisateur</label>
-                    <input type="text" id="username" name="username" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "
+                    <input type="email" id="username" name="username" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "
                            placeholder="Nom d'utilisateur">
                 </div>
 
@@ -49,6 +50,7 @@
                 <div class="flex flex-col place-items-center w-full">
                     <input type="submit" class="rounded-xl bg-[#5A657C] p-2 text-white md:w-2/5 " value="Se connecter">
                 </div>
+                <a href="/pages/register.php" class="text-white text-sm">Je n'ai pas de compte | S'inscrire</a>
             </form>
         </div>
 

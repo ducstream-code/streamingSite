@@ -24,7 +24,8 @@
     <?php include '../includes/sidebar.php' ?>
 
     <div class="center_div h-full md:w-full  lg:w-full pt-0 md:pt-5  md:pr-12 md:ml-0 md:ml-[80px] ">
-        <?php include "../includes/mobileHeader.php"; ?>
+        <?php include "../includes/mobileHeader.php";
+        include '../includes/message.php'?>
 
 
         <div class="flex justify-center">

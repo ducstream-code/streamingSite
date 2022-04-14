@@ -1,4 +1,13 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+include '../includes/db.php';
+include "../includes/check_session.php";
+
+if(!checkLoggedUser()){
+    header('Location: ./login.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

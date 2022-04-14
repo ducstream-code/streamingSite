@@ -1,4 +1,6 @@
 <?php
+include '../includes/db.php';
+include "../includes/check_session.php";
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

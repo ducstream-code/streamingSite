@@ -66,7 +66,7 @@ if($password != $passwordConfirm){
     exit;
 }
 
-$hashPass = password_hash($password, PASSWORD_DEFAULT);
+$hashPass = hash('sha256',$password);
 
 $stmt = $db->prepare("INSERT INTO users (username,email,password) VALUES (:username,:email,:password)");
 $stmt->bindParam(':username',$username);

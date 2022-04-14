@@ -1,4 +1,10 @@
 <?php
+include '../includes/db.php';
+include "../includes/check_session.php";
+
+if(checkLoggedUser()){
+    header('Location: ./profile.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

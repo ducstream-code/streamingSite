@@ -1,4 +1,10 @@
 <?php
+include '../includes/db.php';
+include "../includes/check_session.php";
+
+if(checkLoggedUser()){
+    header('Location: ./profile.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -34,11 +40,11 @@
         </div>
 
         <div class="p-4 flex justify-center ">
-            <form class="p-10 sm:bg-[#48486A] sm:rounded-3xl sm:w-4/5 md:w-3/5 lg:w-2/5 flex-col flex place-items-center  ">
+            <form class="p-10 sm:bg-[#48486A] sm:rounded-3xl sm:w-4/5 md:w-3/5 lg:w-2/5 flex-col flex place-items-center" method="post" action="../php/login.php">
                 <div class="flex flex-col mb-4">
-                    <label for="username" class="text-white text-xl mb-2">Nom d'utilisateur</label>
-                    <input type="email" id="username" name="username" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "
-                           placeholder="Nom d'utilisateur">
+                    <label for="email" class="text-white text-xl mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="border-solid border-b-2 border-[#5A657C] bg-transparent p-2 "
+                           placeholder="Email">
                 </div>
 
                 <div class="flex flex-col mb-4">

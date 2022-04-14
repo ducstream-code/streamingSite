@@ -94,7 +94,7 @@ Cher ' . $username . ',
 Merci de vous être inscrit.e sur notre site!
 
 Pour profiter de l\'entiereté du site validez votre email avec le lien suivant:
-https://aurelienk.space/php/verify_email.php?email=' . $email. '&hash=' . $hash . '
+https://admin.aurelienk.space/php/verify_email.php?email=' . $email. '&hash=' . $hash . '
 
 ';
 $headers = 'From:noreply@monStreaming.fr' . "\r\n";
